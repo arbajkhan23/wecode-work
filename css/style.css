@@ -46,6 +46,24 @@ a:hover {
   border-color: var(--second-black);
   background-color: var(--bg-blue);
 }
+.week-day > li {
+  border-bottom: 2px solid #f5f5f5 !important;
+}
+.week-day > li > a {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--second-black-5);
+}
+.week-day > li > a:hover {
+  color: var(--primary-orange) !important;
+}
+.btn-cust:hover {
+  background-color: var(--second-black) !important;
+}
 .add-number {
   width: 32px;
   height: 32px;
