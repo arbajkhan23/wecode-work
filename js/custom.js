@@ -17,3 +17,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+document.addEventListener('DOMContentLoaded', function() {
+  var header = document.querySelector('header');
+
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 30) {
+      header.style.backgroundColor = '#f7fbff';
+    } else {
+      header.style.backgroundColor = '#ffffff';
+    }
+  });
+});

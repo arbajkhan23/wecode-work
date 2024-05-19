@@ -25,12 +25,12 @@
   </head>
   <body>
     <!-- header start -->
-    <header class="position-sticky top-0 z-3 bg-white">
+    <header class="position-sticky top-0 z-3">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light p-0">
           <a class="navbar-brand" href=".">
             <img
-              src="images/Diwan-Tour-and-travels-Final-Logo.jpg"
+              src="images/Diwan-Tour-and-travels-Final-Logo.svg"
               alt="Your Logo"
               class="logo"
             />
@@ -53,34 +53,38 @@
             <ul class="navbar-nav mx-auto column-gap-3">
               <li class="nav-item navi-focu">
                 <a
-                  class="nav-link fs-6 py-lg-4 py-3 text-black text-hov-ora"
+                  class="nav-link fs-6 py-lg-4 py-2 text-black text-hov-ora"
                   href="."
                   >Home</a
                 >
               </li>
               <li class="nav-item navi-focu">
                 <a
-                  class="nav-link fs-6 py-lg-4 py-3 text-black text-hov-ora"
+                  class="nav-link fs-6 py-lg-4 py-2 text-black text-hov-ora"
                   href="./about-us.html"
                   >Abouts</a
                 >
               </li>
-              <li class="nav-item navi-focu">
-                <a
-                  class="nav-link fs-6 py-lg-4 py-3 text-black text-hov-ora"
-                  href="./package.html"
-                  >Package</a
-                >
+              <li class="nav-item dropdown navi-focu">
+                <a class="nav-link dropdown-toggle fs-6 py-lg-4 py-2 text-black text-hov-ora" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Package
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item fs-6  py-2 text-black text-hov-ora" href="./package.html">Package</a></li>
+                  <li><a class="dropdown-item fs-6  py-2 text-black text-hov-ora" href="./packageall.html">Package Details</a></li>
+             
+                </ul>
               </li>
               <li class="nav-item navi-focu">
                 <a
-                  class="nav-link fs-6 py-lg-4 py-3 text-black text-hov-ora"
+                  class="nav-link fs-6 py-lg-4 py-2 text-black text-hov-ora"
                   href="./contact.html"
                   >Contact us</a
                 >
               </li>
             </ul>
-            <a href="#" class="text-black fs-6 ps-lg-4 ps-3 text-hov-ora"
+            <div>
+              <a href="#" class="text-black fs-6 ps-lg-4 ps-0 py-2 ps-lg-3  py-lg-3 text-hov-ora d-block d-lg-inline-block"
               ><svg
                 data-slot="icon"
                 fill="none"
@@ -97,10 +101,11 @@
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                ></path></svg
-              >info@example.com</a
+                ></path>
+              </svg>
+              info@example.com</a
             >
-            <a href="#" class="text-black fs-6 ps-lg-4 ps-3 text-hov-ora"
+            <a href="#" class="text-black fs-6 ps-lg-4 ps-0 ps-lg-3 py-2  py-lg-3  text-hov-ora d-lg-inline-block"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -119,6 +124,7 @@
               </svg>
               +911234567891</a
             >
+            </div>
           </div>
         </nav>
       </div>
@@ -415,5 +421,7 @@
         </svg>
       </a>
     </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>
