@@ -209,6 +209,14 @@ a:hover {
   width: 60px;
   background-size: 290px;
 }
+.button-2{
+  border: 1px solid rgba(28, 27, 25, 0.5);
+}
+.button-2:hover{
+  background-color: #ff6b01 !important;
+  color: #ffffff;
+  border-color: #ff6b01;
+  }
 .box-1{
  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
  border-radius: 5px;
