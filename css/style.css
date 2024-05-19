@@ -163,10 +163,11 @@ a:hover {
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
 }
-.navi-focu a:active,.navi-focu a:focus-visible{
+.navi-focu a:active,
+.navi-focu a:focus-visible {
   border-radius: none !important;
   background-color: transparent !important;
-} 
+}
 
 .bg-img-1::after {
   content: "";
@@ -246,21 +247,20 @@ a:hover {
   width: 60px;
   background-size: 290px;
 }
-.box-1{
- box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
- border-radius: 5px;
+.box-1 {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
 .button-2 {
-  border: 1px solid rgba(28, 27, 25, 0.5);;
+  border: 1px solid rgba(28, 27, 25, 0.5);
 }
-.button-2:hover{
+.button-2:hover {
   background-color: #ff6b01 !important;
   color: #ffffff;
   border-color: #ff6b01;
 }
 
 @media (min-width: 576px) {
-  
 }
 @media (min-width: 768px) {
   .py-100 {
